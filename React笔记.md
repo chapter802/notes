@@ -323,7 +323,7 @@ let new student = update(student, {grades:{$set: ['A', 'B', 'C']}});
 * 黄金法则: 如果你想创建一个基于当前状态的值时，请使用 computed。
 * 如果你有一个函数应该自动运行，但不会产生一个新的值，请使用autorun。
 * 核心思想 状态变化引起的副作用应该被自动触发
-* 
+* Decorator 是在声明阶段实现类与类成员注解的一种语法
 
 
 
